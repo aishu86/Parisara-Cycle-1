@@ -1,154 +1,144 @@
-# 🌱 Parisara-Cycle App
+🌱 Parisara-Cycle App
+Smart Cycling Companion for Safer & Greener Commutes 🚴‍♂️
+📌 Overview
+Parisara-Cycle is an Android application built to encourage sustainable and safe cycling in semi-urban and growing towns.
+It empowers students, professionals, and everyday commuters to discover eco-friendly routes, report hazards, and measure their environmental contribution through CO₂ savings.
 
-### Green Commuter Guide for Safe & Sustainable Cycling 🚴‍♀️
+Cycling becomes more than transport — it becomes a community-driven green movement.
 
----
+❗ Problem Statement
+Challenges faced by cyclists today:
 
-## 📌 Overview
+Unsafe roads with potholes and poor infrastructure
 
-**Parisara-Cycle** is an Android application designed to promote **safe, eco-friendly cycling** in growing towns and semi-urban areas.
-The app helps students and workers find **safe cycling routes**, report road hazards, and track their **environmental impact** through CO₂ savings.
+Lack of guidance for low-traffic, cycle-friendly routes
 
-It transforms cycling from a necessity into a **smart and proud green lifestyle choice**.
+No simple way to report hazards or share safety data
 
----
+Limited motivation to adopt green commuting habits
 
-## ❗ Problem Statement
+🎯 Objectives
+Deliver optimized cycling routes tailored for safety
 
-In many towns:
+Build a community hazard map with real-time updates
 
-* Cyclists face **road safety issues** due to traffic and poor infrastructure
-* There is no proper guidance for **safe or low-traffic routes**
-* Users cannot easily report **potholes or dangerous areas**
-* Lack of motivation to adopt **eco-friendly commuting**
+Encourage eco-conscious commuting via CO₂ tracking
 
----
+Strengthen cyclist safety through shared insights
 
-## 🎯 Objectives
+Promote fitness and sustainable lifestyles
 
-* Provide **safe and optimized cycling routes**
-* Enable **community-based hazard reporting**
-* Encourage **green commuting** through CO₂ tracking
-* Improve **cyclist safety** using shared data
-* Promote **healthier lifestyles**
+🚀 Key Features
+🗺️ Safe Route Planner
+Suggests bike-friendly paths
 
----
+Filters out highways and unsafe roads
 
-## 🚀 Key Features
+Provides map-based navigation
 
-### 🗺️ Safe Route Navigation
+⚠️ Hazard Reporting
+Pin unsafe spots like:
 
-* Suggests **cycle-friendly routes**
-* Avoids highways and high-traffic roads
-* Uses map-based navigation
+Potholes
 
-### ⚠️ Community Safety Mapping
+Broken roads
 
-* Users can **pin danger zones**:
+Accident-prone junctions
 
-  * Potholes
-  * Damaged roads
-  * Risky intersections
-* Real-time visibility for all users
+Shared visibility for all riders
 
-### 🧑‍🤝‍🧑 Buddy System
+🧑‍🤝‍🧑 Buddy Connect
+Discover nearby cyclists on similar routes
 
-* Find nearby users traveling on the same route
-* Share **live location** for safety
-* Encourages group cycling
+Share live location for safety
 
-### 🔧 Pit-Stop Finder
+Encourages group rides
 
-* Locate:
+🔧 Pit-Stop Locator
+Find:
 
-  * Cycle repair shops
-  * Water points
+Repair shops
 
-### 🌍 Eco-Stats Tracker
+Refreshment points
 
-* Tracks **distance traveled**
-* Calculates CO₂ savings
-* Displays:
+Water refill stations
 
-  * Daily stats
-  * Monthly total
+🌍 Eco-Stats Dashboard
+Track distance covered
 
----
+Calculate CO₂ savings
 
-## ⚙️ Tech Stack
+View daily, weekly, monthly stats
 
-**Frontend:**
+⚙️ Tech Stack
+Frontend:
 
-* Android (Java/Kotlin)
-* XML (UI Design)
+Android (Kotlin/Java)
 
-**Backend & Services:**
+Jetpack Compose / XML
 
-* Firebase (Realtime Database / Firestore)
+Backend & Services:
 
-**APIs & Tools:**
+Firebase (Auth, Firestore, Realtime DB)
 
-* Google Maps API
-* Location Services
+APIs & Tools:
 
-**Concepts Used:**
+Google Maps SDK
 
-* Generative AI (for smart suggestions & insights)
-* Real-time data synchronization
-* Map-based visualization
+Location Services
 
----
+Concepts Applied:
 
-## 🧠 How It Works
+Generative AI for smart suggestions
 
-1. User enters source and destination
-2. App suggests **safe cycling route**
-3. Displays **hazard markers** on map
-4. User can:
+Real-time synchronization
 
-   * Report issues
-   * Join a buddy
-5. Tracks ride distance
-6. Calculates and stores **CO₂ savings**
+Map-based visualization
 
----
+🧠 Workflow
+Enter source & destination
 
-## 📊 CO₂ Calculation Logic
+App suggests safe cycling route
 
-* Approximation used:
-  **1 km cycling = 120g CO₂ saved**
+Hazard markers appear on map
 
-* Example:
-  5 km ride → **600g CO₂ saved**
+User can:
 
----
+Report hazards
 
-## 🌍 Impact
+Join a buddy ride
 
-* 🌱 Supports **Net Zero goals**
-* ❤️ Promotes **public health & fitness**
-* 🚦 Improves **road safety awareness**
-* 🤝 Builds **community-driven data system**
+Ride distance tracked
 
----
+CO₂ savings calculated & stored
 
-## 🔮 Future Enhancements
+📊 CO₂ Savings Formula
+Approximation:
+1 km cycling = 120g CO₂ saved
 
-* AI-based **route prediction**
-* Weather-based route suggestions
-* Integration with **smart wearables**
-* Government data integration for smart city planning
+Example:
+8 km ride → 960g CO₂ saved
 
----
+🌍 Impact
+🌱 Supports climate-friendly commuting
 
-## 👩‍💻 Author
+❤️ Boosts public health & fitness
 
-**Shreya Hunnur**
+🚦 Raises road safety awareness
 
----
+🤝 Builds a community-driven cycling network
 
-## 📄 License
+🔮 Future Scope
+AI-powered route prediction
 
-This project is developed for educational purposes.
+Weather-aware navigation
 
----
+Integration with wearables & IoT devices
+
+Collaboration with smart city initiatives
+
+👩‍💻 Author
+Ayesha Bee
+
+📄 License
+Developed for academic and educational purposes.
